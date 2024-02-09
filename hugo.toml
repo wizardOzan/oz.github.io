@@ -5,3 +5,58 @@ theme = 'hugo-coder'
 
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'Ozan Demir'
+    weight = 1
+    [languages.de.params]
+  author = "Ozan Demir"
+  info = "IT-Enthusiast, Datenzauberer"
+  description = "Ozan's personal website"
+  keywords = "entwickler,persönlich,projekt,it" 
+  
+[[languages.de-DE.menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[languages.de-DE.menu.main]]
+  name = "Kontakt"
+  weight = 2
+  url = "about/"
+[[languages.de-DE.menu.main]] 
+  name = "Projekte"
+  weight = 3
+  url = "projects/"
+	  
+	  
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Ozan Demir'
+    weight = 2
+    [languages.en.params]
+author = "Ozan"
+info = "IT-Enthusiast, Datawizard"
+description = "Ozans personalwebsite"
+keywords = "blog,develope,it,project"
+
+[[languages.en.menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[languages.en.menu.main]]
+  name = "Contact"
+  weight = 2
+  url = "about/"
+[[languages.en.menu.main]] 
+  name = "Projects"
+  weight = 3
+  url = "projects/"

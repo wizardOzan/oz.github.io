@@ -12,7 +12,6 @@ disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
-noClasses = false
 
 [params]
   author = "Ozan Demir"
@@ -59,60 +58,4 @@ noClasses = false
   icon = "fa-brands fa-linkedin fa-2x"
   weight = 3
   url = "https://de.linkedin.com/in/ozan-demir-6514211ba"
-
-# Menu links
-
-[languages]
-  [languages.de]
-    contentDir = 'content/de'
-    disabled = false
-    languageCode = 'de-DE'
-    languageDirection = 'ltr'
-    languageName = 'Deutsch'
-    title = 'Ozan Demir'
-    weight = 1
-    [languages.de.params]
-    [[languages.de.menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[languages.de.menu.main]]
-  name = "Kontakt"
-  weight = 2
-  url = "about/"
-[[languages.de.menu.main]]
-  name = "Projekte"
-  weight = 3
-  url = "projects/"
-
-	  
-	  
-  [languages.en]
-    contentDir = 'content/en'
-    disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    title = 'Ozan Demir'
-    weight = 2
-    [languages.en.params]
-    author = "Ozan"
-info = "IT-Enthusiast, Datawizard"
-description = "Ozans personalwebsite"
-keywords = "blog,develope,it,project"
-
-[[languages.en.menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[languages.en.menu.main]]
-  name = "Contact"
-  weight = 2
-  url = "about/"
-[[languages.en.menu.main]] 
-  name = "Projects"
-  weight = 3
-  url = "projects/"  
-
-
 
