@@ -22,13 +22,13 @@ defaultContentLanguageInSubdir = true
   keywords = "entwickler,persönlich,projekt,it" 
   
 [[languages.de.menu.main]]
-  name = "Blog"
+  name = "Über mich"
   weight = 1
-  url  = "posts/"
+  url  = "about/"
 [[languages.de.menu.main]]
   name = "Kontakt"
   weight = 2
-  url = "about/"
+  url = "contact/"
 [[languages.de.menu.main]] 
   name = "Projekte"
   weight = 3
@@ -51,13 +51,13 @@ description = "Ozans personalwebsite"
 keywords = "blog,develope,it,project"
 
 [[languages.en.menu.main]]
-  name = "Blog"
+  name = "About me"
   weight = 1
-  url  = "posts/"
+  url  = "about/"
 [[languages.en.menu.main]]
   name = "Contact"
   weight = 2
-  url = "about/"
+  url = "contact/"
 [[languages.en.menu.main]] 
   name = "Projects"
   weight = 3
