@@ -14,18 +14,24 @@ disqusShortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "John Doe"
-  info = "Full Stack DevOps and Magician"
-  description = "John Doe's personal website"
-  keywords = "blog,developer,personal"
+  author = "Ozan Demir"
+  info = "IT-Enthusiast, Datenzauberer"
+  description = "Ozan's personal website"
+  keywords = "entwickler,persönlich,projekt,it"
   avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  #gravatar = "ozan.demir@example.com"
+# 
+"Meine Reise in die Welt der Informationstechnologie begann im zarten Alter von 11 Jahren, als ein Commodore Amiga 500 mein Tor zu den unendlichen Möglichkeiten öffnete. 
+In den Weiten der Bundesliga Manager-Datenbanken fand ich meine ersten digitalen Abenteuer. Der Umstieg auf meinen ersten Windows-Rechner mit Windows XP im Alter von 13 Jahren markierte den Beginn meiner Selbstentdeckung in der IT-Welt.
+Mit einer unstillbaren Neugier und einer Passion für Zahlen, Performance, Trends und Analysen machte ich mich daran, mir selbst vieles beizubringen. Das Gestalten von Webseiten, insbesondere im Kontext von Fussball Manager Online-Seiten mit H&H WebSoccer und WoltLab, wurde zu meinem Spielplatz für Kreativität und technische Finesse. Das Schreiben von Skripten, die komplexe Aufgaben vereinfachen, wurde zu meiner zweiten Natur.
+Nach der TU Berlin habe ich meine Leidenschaft zum Beruf gemacht. Heute arbeite ich als Projektmanager/-koordinator im pulsierenden Umfeld der Informationstechnologie. Meine Reise hat mich durch verschiedene Stationen geführt, und ich habe dabei wertvolle Erfahrungen gesammelt, die mich stets vorwärts treiben. Denn in der IT gibt es nur eine Konstante: den stetigen Wandel. 
+Und darauf freue ich mich, Tag für Tag, in dieser faszinierenden Welt der Innovation und Technologie."
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  since = 2023
 
   enableTwemoji = true
 
@@ -47,17 +53,17 @@ style = "github-dark"
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/wizardOzan"
 [[params.social]]
   name = "Gitlab"
   icon = "fa-brands fa-gitlab fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://gitlab.com/"
 [[params.social]]
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin fa-2x"
   weight = 3
-  url = "https://www.linkedin.com/in/johndoe/"
+  url = "https://de.linkedin.com/in/ozan-demir-6514211ba"
 
 # Menu links
 [[menu.main]]
