@@ -20,15 +20,15 @@ defaultContentLanguageInSubdir = true
   description = "Ozan's personal website"
   keywords = "entwickler,persönlich,projekt,it" 
   
-[[languages.de-DE.menu.main]]
+[[languages.de.menu.main]]
   name = "Blog"
   weight = 1
   url  = "posts/"
-[[languages.de-DE.menu.main]]
+[[languages.de.menu.main]]
   name = "Kontakt"
   weight = 2
   url = "about/"
-[[languages.de-DE.menu.main]] 
+[[languages.de.menu.main]] 
   name = "Projekte"
   weight = 3
   url = "projects/"
@@ -43,8 +43,8 @@ defaultContentLanguageInSubdir = true
     title = 'Ozan Demir'
     weight = 2
     [languages.en.params]
-author = "Ozan"
-info = "IT-Enthusiast, Datawizard"
+author = "Ozan Demir"
+info = "IT-enthusiast, Datawizard"
 description = "Ozans personalwebsite"
 keywords = "blog,develope,it,project"
 
