@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir = true
     disabled = false
     languageCode = 'de-DE'
     languageDirection = 'ltr'
-    languageName = 'Deutsch'
+    languageName = 'deutsch'
     title = 'Ozan Demir'
     weight = 1
 	
@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = true
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
-    languageName = 'English'
+    languageName = 'english'
     title = 'Ozan Demir'
     weight = 2
 	
