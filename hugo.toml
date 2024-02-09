@@ -3,8 +3,7 @@ languageCode = 'de-DE'
 title = 'Ozan Demir'
 theme = 'hugo-coder' 
 
-defaultContentLanguage = 'de'
-defaultContentLanguageInSubdir = true
+
 [languages]
   [languages.de]
     contentDir = 'content/de'
@@ -14,6 +13,7 @@ defaultContentLanguageInSubdir = true
     languageName = 'Deutsch'
     title = 'Ozan Demir'
     weight = 1
+	
     [languages.de.params]
   author = "Ozan Demir"
   info = "IT-Enthusiast, Datenzauberer"
@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
   url = "projects/"
 	  
 	  
-  [languages.en]
+[languages.en]
     contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
@@ -42,9 +42,10 @@ defaultContentLanguageInSubdir = true
     languageName = 'English'
     title = 'Ozan Demir'
     weight = 2
+	
     [languages.en.params]
 author = "Ozan Demir"
-info = "IT-enthusiast, Datawizard"
+info = "IT-enthusiast, datawizard"
 description = "Ozans personalwebsite"
 keywords = "blog,develope,it,project"
 
