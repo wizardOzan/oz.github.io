@@ -1,31 +1,23 @@
 baseURL = "http://www.example.com"
-title = "ozandemir"
+title = "johndoe"
 theme = "hugo-coder"
-languageCode = "de"
-defaultContentLanguage = "de"
+languageCode = "en"
+defaultContentLanguage = "en"
 paginate = 6
 enableEmoji = true
 # Enable Disqus comments
-# disqusShortname = "oz"
+# disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 noClasses = false
 
 [params]
-author = "Ozan Demir"
+author = "John Doe"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Datenzauberer und IT-Ethusiast"
-keywords = "blog,projekte,persönlich,IT"
-info = ["Projektmanager", "Datenzauberer"]
+description = "John Doe's personal website"
+keywords = "blog,developer,personal"
+info = ["Full Stack DevOps", "Magician"]
 avatarURL = "images/avatar.jpg"
-footercontent = "Meine Reise in die Welt der Informationstechnologie begann im zarten Alter von 11 Jahren, als ein Commodore Amiga 500 mein Tor zu den unendlichen Möglichkeiten öffnete. 
-In den Weiten der Bundesliga Manager-Datenbanken fand ich meine ersten digitalen Abenteuer. 
-Der Umstieg auf meinen ersten Windows-Rechner mit Windows XP im Alter von 13 Jahren markierte den Beginn meiner Selbstentdeckung in der IT-Welt.
-Mit einer unstillbaren Neugier und einer Passion für Zahlen, Performance, Trends und Analysen machte ich mich daran, mir selbst vieles beizubringen. 
-Das Gestalten von Webseiten, insbesondere im Kontext von Fussball Manager Online-Seiten mit H&H WebSoccer und WoltLab, wurde zu meinem Spielplatz für Kreativität und technische Finesse. Das Schreiben von Skripten, die komplexe Aufgaben vereinfachen, wurde zu meiner zweiten Natur.
-Nach der TU Berlin habe ich meine Leidenschaft zum Beruf gemacht. Heute arbeite ich als Projektmanager/-koordinator im pulsierenden Umfeld der Informationstechnologie. Meine Reise hat mich durch verschiedene Stationen geführt, und ich habe dabei wertvolle Erfahrungen gesammelt, die mich stets vorwärts treiben. Denn in der IT gibt es nur eine Konstante: den stetigen Wandel. 
-Und darauf freue ich mich, Tag für Tag, in dieser faszinierenden Welt der Innovation und Technologie."
-
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 since = 2019
@@ -157,7 +149,7 @@ url = "https://twitter.com/johndoe/"
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
-url = ""
+url = "https://www.linkedin.com/in/johndoe/"
 
 [[params.social]]
 name = "Medium"
@@ -177,31 +169,31 @@ type = "application/rss+xml"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "über mich"
+name = "About"
 weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "blog"
+name = "Blog"
 weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "projekte"
+name = "Projects"
 weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "kontakt"
+name = "Contact me"
 weight = 5
 url = "contact/"
 
 [languages.pt-br]
 languageName = ":brazil:"
-title = "Ozan Demir"
+title = "João Ninguém"
 
 [languages.pt-br.params]
-author = "Ozan Demir"
+author = "João Ninguém"
 info = "Full Stack DevOps e Mágico"
 description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
