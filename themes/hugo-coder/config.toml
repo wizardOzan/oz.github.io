@@ -18,12 +18,14 @@ style = "github-dark"
   info = "IT-Enthusiast, Datenzauberer"
   description = "Ozan's personal website"
   keywords = "entwickler,persönlich,projekt,it"
-  avatarurl = "images/avatar.jpg"
+[params.avatar]
+  avatarurl = "images/avatar.png"
   #gravatar = "ozan.demir@example.com"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  [params.favicon]
+  faviconSVG = "/images/favicon.svg"
+  favicon_32 = "/images/favicon-32x32.png"
+  favicon_16 = "/images/favicon-16x16.png"
 
   since = 2023
 
