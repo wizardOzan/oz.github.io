@@ -1,8 +1,5 @@
 baseURL = "http://www.example.com"
-title = "ozandemir"
 theme = "hugo-coder"
-languageCode = "de-DE"
-defaultContentLanguage = "de-DE"
 paginate = 6
 enableEmoji = true
 # Enable Disqus comments
