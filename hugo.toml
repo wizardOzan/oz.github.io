@@ -3,7 +3,8 @@ languageCode = 'de-DE'
 title = 'Ozan Demir'
 theme = 'hugo-coder' 
 
-
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
 [languages]
   [languages.de]
     contentDir = 'content/de'
