@@ -60,15 +60,32 @@ style = "github-dark"
   url = "https://de.linkedin.com/in/ozan-demir-6514211ba"
 
 # Menu links
-[[menu.main]]
+[languages]
+
+[languages.de]
+[[languages.de.menu.main]]
   name = "Blog"
   weight = 1
   url  = "posts/"
-[[menu.main]]
+[[languages.de.menu.main]]
   name = "Kontakt"
   weight = 2
   url = "about/"
-[[menu.main]]  
+[[languages.de.menu.main]]
   name = "Projekte"
+  weight = 3
+  url = "projects/"
+
+[languages.en]
+[[languages.en.menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[languages.en.menu.main]]
+  name = "Contact"
+  weight = 2
+  url = "about/"
+[[languages.en.menu.main]] 
+  name = "Projects"
   weight = 3
   url = "projects/"
