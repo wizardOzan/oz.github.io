@@ -12,17 +12,22 @@ defaultContentLanguageInSubdir = true
     languageCode = 'de-DE'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
-    title = 'Projekt Dokumentation'
+    title = 'Ozan Demir'
     weight = 1
     [languages.de.params]
       subtitle = 'Referenz, Tutorials und Erklärungen'
+	  {{ .Date | time.Format ":date_full" }}
+
+	  
+	  
   [languages.en]
     contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Project Documentation'
+    title = 'Ozan Demir'
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
+	  {{ .Date | time.Format ":date_full" }}
