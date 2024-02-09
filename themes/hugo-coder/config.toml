@@ -18,7 +18,7 @@ style = "github-dark"
   info = "IT-Enthusiast, Datenzauberer"
   description = "Ozan's personal website"
   keywords = "entwickler,persönlich,projekt,it"
-  avatarurl = images/avatar.jpg
+  avatarurl = "images/avatar.jpg"
   #gravatar = "ozan.demir@example.com"
 
   faviconSVG = "/img/favicon.svg"
