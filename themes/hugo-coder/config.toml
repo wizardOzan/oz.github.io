@@ -61,11 +61,18 @@ noClasses = false
   url = "https://de.linkedin.com/in/ozan-demir-6514211ba"
 
 # Menu links
-[languages]
-languageName = ":DE:"
 
-[languages.de]
-[[languages.de.menu.main]]
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'Ozan Demir'
+    weight = 1
+    [languages.de.params]
+    [[languages.de.menu.main]]
   name = "Blog"
   weight = 1
   url  = "posts/"
@@ -78,11 +85,18 @@ languageName = ":DE:"
   weight = 3
   url = "projects/"
 
-[languages.en]
-languageName = ":uk:"
-
-[languages.en.params]
-author = "Ozan"
+	  
+	  
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Ozan Demir'
+    weight = 2
+    [languages.en.params]
+    author = "Ozan"
 info = "IT-Enthusiast, Datawizard"
 description = "Ozans personalwebsite"
 keywords = "blog,develope,it,project"
@@ -98,4 +112,7 @@ keywords = "blog,develope,it,project"
 [[languages.en.menu.main]] 
   name = "Projects"
   weight = 3
-  url = "projects/"
+  url = "projects/"  
+
+
+
