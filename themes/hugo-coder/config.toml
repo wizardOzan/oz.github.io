@@ -1,52 +1,5 @@
-baseURL = "http://www.example.com"
-title = "ozandemir"
-theme = "hugo-coder"
-languageCode = "de"
-defaultContentLanguage = "de"
-paginate = 6
-enableEmoji = true
+baseURL = "https://example.com/"
 
-[markup.highlight]
-noClasses = false
-
-[params]
-author = "Ozan Demir"
-description = "Ozan Demir's personal website"
-keywords = "blog,developer,personal"
-info = ["IT Projektmanager", "wizard"]
-avatarURL = "images/avatar.jpg"
-dateFormat = "January 2, 2006"
-since = 2023
-colorScheme = "auto"
-hideColorSchemeToggle = false
-maxSeeAlsoItems = 5
-
-[params.social]
-name = "Github"
-icon = "fa-brands fa-github fa-2x"
-weight = 1
-url = "https://github.com/ozandemir/"
-
-[languages.de]
-languageName = ":de:"
-title = "ozandemir"
-
-[params.profileMode]
-enabled = true
-title = "Über mich"
-description = "Meine Reise in die Welt der Informationstechnologie begann im zarten Alter von 11 Jahren, als ein Commodore Amiga 500 mein Tor zu den unendlichen Möglichkeiten öffnete.<br><br>In den Weiten der Bundesliga Manager-Datenbanken fand ich meine ersten digitalen Abenteuer.<br><br>Der Umstieg auf meinen ersten Windows-Rechner mit Windows XP im Alter von 13 Jahren markierte den Beginn meiner Selbstentdeckung in der IT-Welt.<br><br>Mit einer unstillbaren Neugier und einer Passion für Zahlen, Performance, Trends und Analysen machte ich mich daran, mir selbst vieles beizubringen.<br><br>Das Gestalten von Webseiten, insbesondere im Kontext von Fussball Manager Online-Seiten mit H&H WebSoccer und WoltLab, wurde zu meinem Spielplatz für Kreativität und technische Finesse.<br><br>Das Schreiben von Skripten, die komplexe Aufgaben vereinfachen, wurde zu meiner zweiten Natur.<br><br>Nach der TU Berlin habe ich meine Leidenschaft zum Beruf gemacht. Heute arbeite ich als Projektmanager/-koordinator im pulsierenden Umfeld der Informationstechnologie.<br><br>Meine Reise hat mich durch verschiedene Stationen geführt, und ich habe dabei wertvolle Erfahrungen gesammelt, die mich stets vorwärts treiben.<br><br>Denn in der IT gibt es nur eine Konstante: den stetigen Wandel.<br><br>Und darauf freue ich mich, Tag für Tag, in dieser faszinierenden Welt der Innovation und Technologie."
-
-[[languages.de.menu.main]]
-name = "About"
-weight = 1
-url = "about/"
-
-[[languages.de.menu.main]]
-name = "Projekt"
-weight = 2
-url = "projects/"
-
-[[languages.de.menu.main]]
-name = "Contact"
-weight = 3
-url = "contact/"
+[module]
+[module.hugoVersion]
+min = "0.77.0"
