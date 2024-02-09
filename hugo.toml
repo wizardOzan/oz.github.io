@@ -16,7 +16,6 @@ defaultContentLanguageInSubdir = true
     weight = 1
     [languages.de.params]
       subtitle = 'Referenz, Tutorials und Erklärungen'
-	  {{ .Date | time.Format ":date_full" }}
 
 	  
 	  
@@ -30,4 +29,3 @@ defaultContentLanguageInSubdir = true
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
-	  {{ .Date | time.Format ":date_full" }}
