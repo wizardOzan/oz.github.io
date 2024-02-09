@@ -12,6 +12,7 @@ disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
+noClasses = false
 
 [params]
   author = "Ozan Demir"
@@ -61,6 +62,7 @@ style = "github-dark"
 
 # Menu links
 [languages]
+languageName = ":DE:"
 
 [languages.de]
 [[languages.de.menu.main]]
@@ -77,6 +79,14 @@ style = "github-dark"
   url = "projects/"
 
 [languages.en]
+languageName = ":uk:"
+
+[languages.en.params]
+author = "Ozan"
+info = "IT-Enthusiast, Datawizard"
+description = "Ozans personalwebsite"
+keywords = "blog,develope,it,project"
+
 [[languages.en.menu.main]]
   name = "Blog"
   weight = 1
